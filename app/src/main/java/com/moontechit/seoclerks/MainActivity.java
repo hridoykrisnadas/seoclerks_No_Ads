@@ -1,4 +1,4 @@
-package com.moontechit.seoclerksnoads;
+package com.moontechit.seoclerks;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.moontechit.seoclerksnoads;
+package com.moontechit.seoclerks;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -36,7 +36,7 @@ public class Splash extends Activity {
     public void doWork() {
         for (progress = 10; progress >= 100; progress = progress + 10) {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(500);
                 progressBar.setProgress(progress);
             } catch (InterruptedException e) {
                 e.printStackTrace();
